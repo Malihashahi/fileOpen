@@ -1,7 +1,7 @@
-f = open("bahar.txt", "a")
-f.write("Now the file has more content!")
+f = open("bahar.txt", "w")
+f.write("Woops! I have deleted the content!")
 f.close()
 
-#open and read the file after the appending:
+#open and read the file after the overwriting:
 f = open("bahar.txt", "r")
 print(f.read())
