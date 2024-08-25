@@ -1,5 +1,7 @@
-import os
-if os.path.exists("bahar.txt"):
-  os.remove("bahar.txt")
-else:
-  print("The file does not exist")
+mport numpy as np
+
+arr = np.array([1, 2, 3, 4, 5])
+
+print(arr)
+
+print(type(arr))
