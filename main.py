@@ -1,7 +1,8 @@
-mport numpy as np
+import matplotlib.pyplot as plt
+import numpy as np
 
-arr = np.array([1, 2, 3, 4, 5])
+xpoints = np.array([0, 6])
+ypoints = np.array([0, 250])
 
-print(arr)
-
-print(type(arr))
+plt.plot(xpoints, ypoints)
+plt.show()
